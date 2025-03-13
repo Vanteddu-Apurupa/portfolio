@@ -17,7 +17,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
         &times;
       </button>
 
-      {["Home", "About", "Projects", "Contact"].map((item) => (
+      {["Home", "Projects", "Skills", "Education","Contact"].map((item) => (
         <a
           key={item}
           href={`#${item.toLowerCase()}`}

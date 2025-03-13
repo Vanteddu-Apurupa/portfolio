@@ -9,7 +9,7 @@ export const Education = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Education Card 1 */}
           <div className="p-6 rounded-xl border border-white/10 flex items-center hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-            <img src="src/components/images/klu.jpeg" alt="University Logo" className="w-24 h-24 mr-6" />
+            <img src="public/images/klu.jpeg" alt="University Logo" className="w-24 h-24 mr-6" />
             <div>
               <h3 className="text-xl font-bold mb-2">Koneru Lakshmaiah Educational Foundation</h3>
               <p className="text-gray-400 mb-2">Guntur, Andhra Pradesh</p>
@@ -24,7 +24,7 @@ export const Education = () => {
 
           {/* Education Card 2 */}
           <div className="p-6 rounded-xl border border-white/10 flex items-center hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-            <img src="src/components/images/scjc.webp" alt="College Logo" className="w-24 h-24 mr-6" />
+            <img src="public/images/scjc.webp" alt="College Logo" className="w-24 h-24 mr-6" />
             <div>
               <h3 className="text-xl font-bold mb-2">Sri Chaitanya Junior College</h3>
               <p className="text-gray-400 mb-2">Hyderabad, Telangana</p>
@@ -35,9 +35,9 @@ export const Education = () => {
             </div>
           </div>
 
-          {/* Education Card 3 (Centered Below) */}
+          {/* Education Card 3 (Centered Below)*/}
           <div className="p-6 rounded-xl border border-white/10 flex items-center hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition col-span-1 md:col-span-2 mx-auto">
-            <img src="src/components/images/SC.png" alt="School Logo" className="w-24 h-24 mr-6" />
+            <img src="public/images/SC.png" alt="School Logo" className="w-24 h-24 mr-6" />
             <div>
               <h3 className="text-xl font-bold mb-2">Sri Chaitanya School</h3>
               <p className="text-gray-400 mb-2">Hyderabad, Telangana</p>
@@ -47,11 +47,15 @@ export const Education = () => {
               </ul>
             </div>
           </div>
+
         </div>
       </div>
     </section>
   );
 };
+
+export default Education;
+
 
 // export const Education = () => {
 //   return (

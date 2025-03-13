@@ -1,6 +1,9 @@
 
 import emailjs from "emailjs-com";
 import { useState } from "react";
+import.meta.env.VITE_SERVICE_ID
+import.meta.env.VITE_TEMPLATE_ID
+import.meta.env.VITE_PUBLIC_KEY
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
@@ -36,12 +39,12 @@ export const Contact = () => {
             <input
               type="text"
               id="name"
-              name="name"
+              name="n"
               required
               value={formData.name}
               className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
               placeholder="Your Name"
-              aria-label="Your Name"
+              aria-label=""
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
             />
           </div>

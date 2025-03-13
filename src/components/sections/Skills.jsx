@@ -1,21 +1,21 @@
 export const Skills = () => {
   const skills = [
-    { name: "C++", icon: "src/components/images/skills/c++.jpeg" },
-    { name: "Java", icon: "src/components/images/skills/java.png" },
-    { name: "Python", icon: "src/components/images/skills/pythn.png" },
-    { name: "JavaScript", icon: "src/components/images/skills/js.png" },
-    { name: "CSS", icon: "src/components/images/skills/css3.svg" },
-    { name: "HTML", icon: "src/components/images/skills/html5.png" },
-    { name: "TailwindCSS", icon: "src/components/images/skills/tailwindcss.png" },
-    { name: "Node.js", icon: "src/components/images/skills/nodejs.png" },
-    { name: "React.js", icon: "src/components/images/skills/react.js.png" },
-    { name: "GitHub", icon: "src/components/images/skills/github.png" },
-    { name: "MySQL", icon: "src/components/images/skills/mysql.png" },
-    { name: "MongoDB", icon: "src/components/images/skills/mngDB.webp" },
-    { name: "Spring Boot", icon: "src/components/images/skills/spring.png" },
-    { name: "AWS", icon: "src/components/images/skills/AWS.png" },
-    { name: "Docker", icon: "src/components/images/skills/Docker.png" },
-    { name: "Jenkins", icon: "src/components/images/skills/jenkins.jpeg" }
+    { name: "C++", icon: "/images/skills/c++.jpeg" },
+    { name: "Java", icon: "/images/skills/java.png" },
+    { name: "Python", icon: "/images/skills/pythn.png" },
+    { name: "JavaScript", icon: "/images/skills/js.png" },
+    { name: "CSS", icon: "/images/skills/css3.svg" },
+    { name: "HTML", icon: "/images/skills/html5.png" },
+    { name: "TailwindCSS", icon: "/images/skills/tailwindcss.png" },
+    { name: "Node.js", icon: "/images/skills/nodejs.png" },
+    { name: "React.js", icon: "/images/skills/react.js.png" },
+    { name: "GitHub", icon: "/images/skills/github.png" },
+    { name: "MySQL", icon: "/images/skills/mysql.png" },
+    { name: "MongoDB", icon: "/images/skills/mngDB.webp" },
+    { name: "Spring Boot", icon: "/images/skills/spring.png" },
+    { name: "AWS", icon: "/images/skills/AWS.png" },
+    { name: "Docker", icon: "/images/skills/Docker.png" },
+    { name: "Jenkins", icon: "/images/skills/jenkins.jpeg" }
   ];
 
   return (
